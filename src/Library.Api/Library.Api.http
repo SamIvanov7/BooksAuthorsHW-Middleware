@@ -1,0 +1,10 @@
+@Library.Api_HostAddress = http://localhost:5188
+
+GET {{Library.Api_HostAddress}}/api/authors/
+Accept: application/json
+
+###
+GET {{Library.Api_HostAddress}}/api/bocks/
+Accept: application/json
+
+###
